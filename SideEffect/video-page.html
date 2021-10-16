@@ -243,6 +243,12 @@ https://templatemo.com/tm-552-video-catalog
     <script src="js/bootstrap.min.js"></script>
     <script>
     	$(document).ready(function() {
+			const queryString = window.location.search;
+			const urlParams = new URLSearchParams(queryString);
+			const product = urlParams.get('video');
+			alert(product);
+			// get variables from url
+			// change source according to these variables
     		$('.tm-likes-box').click(function(e) {
     			e.preventDefault();
     			$(this).toggleClass('tm-liked');
