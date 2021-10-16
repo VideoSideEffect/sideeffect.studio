@@ -76,7 +76,7 @@ https://templatemo.com/tm-552-video-catalog
 					<div class="row mb-5 pb-4">
 						<div class="col-12">
 							<!-- Video player 1422x800 -->
-							<video width="1422" height="800" controls autoplay>
+							<video id="video" width="1422" height="800" controls autoplay>
 							  <source src="video/Side-Effect-baner.mp4" type="video/mp4">							  
 							Your browser does not support the video tag.
 							</video>
@@ -247,6 +247,23 @@ https://templatemo.com/tm-552-video-catalog
 			const urlParams = new URLSearchParams(queryString);
 			const product = urlParams.get('video');
 			alert(product);
+			var video = document.getElementById('video');
+			var source = document.createElement('source');
+
+			source.setAttribute('src', 'video/wheat-field.mp4');
+
+			video.appendChild(source);
+			video.play();
+
+			setTimeout(function() {  
+				video.pause();
+
+				source.setAttribute('src', 'video/wheat-field.mp4'); 
+
+				video.load();
+				video.play();
+			}, 3000);
+
 			// get variables from url
 			// change source according to these variables
     		$('.tm-likes-box').click(function(e) {
