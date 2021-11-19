@@ -61,11 +61,11 @@ h2, p { color: #666666; }
 
 .tm-bg-black {
     background-color: rgba(0,0,0,0.5);
-    color: white;
+    color: rgb(226, 83, 26);
 }
 
 .tm-bg-gray { background-color: #F4F4F4; }
-.tm-text-primary { color: #3399CC; }
+.tm-text-primary { color: #FF5A00; }
 .tm-text-secondary { color: #3CAFAF; }
 
 .tm-nav-link {
@@ -165,7 +165,7 @@ h2, p { color: #666666; }
 }
 
 .tm-btn-cta {
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgba(0,0,0,0.5);
 }
 
@@ -176,7 +176,7 @@ h2, p { color: #666666; }
 .tm-icon-download:before { content: '\f019'; }
 .tm-icon-submit:before { content: '\f1d8'; }
 .tm-icon-submit:hover:before { top: 18px; }
-.tm-btn-cta:hover { color: white; }
+.tm-btn-cta:hover { color: rgb(255, 255, 255); }
 
 .tm-btn-download:hover,
 .tm-btn-download:focus,
