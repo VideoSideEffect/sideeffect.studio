@@ -217,7 +217,7 @@ h2, p { color: #666666; }
 
 .tm-thumbnail-container { overflow: hidden; }
 .tm-thumbnail-container img { transition: all 0.3s ease; }
-.tm-thumbnail-container:hover img { transform: scale(1.2) rotate(5deg); }
+.tm-thumbnail-container:hover img { transform: scale(1.2) rotate(0deg); }
 
 .tm-img-overlay {
     top: 0;
