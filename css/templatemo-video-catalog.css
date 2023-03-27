@@ -36,6 +36,16 @@ h2, p { color: #666; }
     top: 0;
     left: 0;
     padding: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .tm-site-header {
+        padding: 20px;
+        background-size: contain;
+    }
 }
 
 .tm-logo-container {
