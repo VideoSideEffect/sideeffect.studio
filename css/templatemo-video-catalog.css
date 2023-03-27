@@ -545,5 +545,5 @@ video {
 
 @font-face {
     font-family: 'Bagnard';
-    src: url('/fontawesome/webfonts/Bagnard.otf') format('opentype');
+    src: url('../fontawesome/webfonts/Bagnard.otf') format('opentype');
   }
