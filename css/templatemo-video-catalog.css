@@ -76,6 +76,12 @@ h2, p { color: #666; }
     font-size: 1.4rem;    
 }
 
+.tm-text-metachurch {
+    background: linear-gradient(45deg, #2badee, #9f1e9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #tm-main-nav .nav-item .nav-link { border-bottom: 1px solid transparent; }
 
 #tm-main-nav .nav-item.active .nav-link,
