@@ -552,6 +552,22 @@ video {
     }
 }
 
+@media (max-width: 767px) {
+    #tm-video-container {
+        height: auto;
+        padding-top: 56.25%;
+        overflow: hidden;
+    }
+    #tm-video-container #tm-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
 @font-face {
     font-family: 'Bagnard';
     src: url('../fontawesome/webfonts/Bagnard.otf') format('opentype');
