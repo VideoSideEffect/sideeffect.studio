@@ -39,7 +39,19 @@ h2, p { color: #666; }
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* Add the following code for smaller screens */
+    background-image: url('path-to-mobile-image');
 }
+
+/* Set the background image size for mobile screens */
+@media screen and (max-width: 768px) {
+    .tm-site-header {
+        background-size: contain;
+        background-position: top;
+        padding: 20px;
+    }
+}
+
 
 .tm-logo-container {
     display: block;
