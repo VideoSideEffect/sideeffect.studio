@@ -50,7 +50,7 @@ h2, p { color: #666; }
         bbackground-size: contain;
         background-position: top;
         padding: 20px;
-        height: 50vh;
+        height: 490px;
         width: 100%;
     }
 }
@@ -372,6 +372,13 @@ h2, p { color: #666; }
     background-attachment: fixed;
     background-size: cover;    
     background-color: #666;
+    height: 490px; /* Default height for desktop screens */
+}
+
+@media (max-width: 768px) { /* Change the height for screens smaller than 768px */
+    #tm-fixed-header-bg {
+        height: 200px;
+    }
 }
 
 #tm-fixed-header-bg { height: 490px; }
