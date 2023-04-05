@@ -377,7 +377,9 @@ h2, p { color: #666; }
 
 @media (max-width: 768px) { /* Change the height for screens smaller than 768px */
     #tm-fixed-header-bg {
-        height: 200px;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
     }
 }
 
