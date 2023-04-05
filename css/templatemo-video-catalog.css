@@ -41,14 +41,17 @@ h2, p { color: #666; }
     background-position: center;
     /* Add the following code for smaller screens */
     background-image: url('path-to-mobile-image');
+    height: 100vh;
 }
 
 /* Set the background image size for mobile screens */
 @media screen and (max-width: 768px) {
     .tm-site-header {
-        background-size: contain;
+        bbackground-size: contain;
         background-position: top;
         padding: 20px;
+        height: 50vh;
+        width: 100%;
     }
 }
 
