@@ -372,7 +372,7 @@ h2, p { color: #666; }
     background-attachment: fixed;
     background-size: cover;    
     background-color: #666;
-    height: 490px; /* Default height for desktop screens */
+    height: 390px; /* Default height for desktop screens */
 }
 
 /* CSS for smaller screens */
@@ -384,7 +384,7 @@ h2, p { color: #666; }
     }
 }
 
-#tm-fixed-header-bg { height: 490px; }
+#tm-fixed-header-bg { height: 390px; }
 .tm-fixed-header-1 { background-image: url(../img/video-detail-1.jpg); }
 .tm-fixed-header-2 { background-image: url(../img/about-1.jpg); }
 .tm-fixed-header-3 { background-image: url(../img/contact-1.jpg); }
