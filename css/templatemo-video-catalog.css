@@ -67,8 +67,7 @@ h2, p { color: #666; }
 .tm-site-name { font-size: 1.9rem; }
 
 #tm-video-container {
-    width: 100%;
-    height: auto;
+    max-height: none;
     overflow: hidden;
     background-color: #333;
 }
@@ -76,7 +75,6 @@ h2, p { color: #666; }
 #tm-video {
     width: 100%;
     height: auto;
-    object-fit: cover;
 }
 
 .tm-bg-black {
