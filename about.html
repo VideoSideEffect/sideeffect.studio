@@ -36,7 +36,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 50vh; /* Samaziniet augstumu, piemēram, uz 50% no skatītāja augstuma */
+        height: 61vh; /* Palieliniet augstumu, piemēram, uz 60% no skatītāja augstuma */
+        margin-bottom: 0; /* Pievieno margin-bottom, lai novērstu atstarpi */
+        padding-bottom: 0; /* Samazina padding apakšā */
+    }
+    @media (max-width: 768px) {
+        .tm-welcome-container {
+            height: 60vh; /* Palieliniet augstumu mobilajām ierīcēm */
+            margin-bottom: 0; /* Pievieno margin-bottom, lai novērstu atstarpi */
+            padding-bottom: 0; /* Samazina padding apakšā */
+        }
+    }
+    .tm-page-title {
+        font-size: 1.5rem; /* Samazina virsraksta fonta izmēru */
+        margin-top: 20px; /* Pievieno margin, lai paceltu tekstu augstāk */
+    }
+    .tm-about-text-container {
+        padding: 1rem; /* Pievieno padding mobīlajām ierīcēm */
+        margin-top: 0; /* Samazina augšējo margin, lai paceltu tekstu augstāk */
+    }
+    .tm-about-text-container p {
+        margin-top: 20px; /* Pievieno margin virs pamatteksta, lai novērstu sakritību */
     }
 </style>
 </head>
@@ -106,7 +126,7 @@
 							<div class="mx-auto tm-about-text-container px-3">
 								<p class="tm-page-title mb-4 tm-text-primary">Welcome to Side Effect studio</p>
 								<p class="mb-4">
-                                    At Side Effect , we bring your ideas to life through stunning video production, captivating commercials, and immersive films. Founded by visionary video artist Raitis Janis Raitums, our studio has been a creative force in the audiovisual industry for over a decade. Our team of professional editors and artists is carefully selected for their exceptional skills and dedication. Each member brings unique expertise and a commitment to collaboration, ensuring that every project achieves outstanding results.
+                                    At Side Effect, we bring your ideas to life through stunning video production, captivating commercials, and immersive films. Founded by visionary video artist Raitis Janis Raitums, our studio has been a creative force in the audiovisual industry for over a decade. Our team of professional editors and artists is carefully selected for their exceptional skills and dedication. Each member brings unique expertise and a commitment to collaboration, ensuring that every project achieves outstanding results.
                                 </p>
                                 <p>Studio Side Effect develops visual material for a variety of purposes</p>
                                 <p><span class="tm-text-secondary">Our Services</span><br>
